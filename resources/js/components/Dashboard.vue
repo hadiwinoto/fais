@@ -5,7 +5,6 @@
                 <el-card class="box-card">
                     <div slot="header" class="clearfix">
                         <span>Dashboard</span>
-                        <el-button style="float: right; padding: 3px 0" type="text">Operation button</el-button>
                     </div>
                     <div class="text item">
                         

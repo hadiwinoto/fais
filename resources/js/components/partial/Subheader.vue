@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-2 mb-2">
-        <el-breadcrumb separator="/">
+        <el-breadcrumb separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }">Dashboard</el-breadcrumb-item>
           <el-breadcrumb-item><a href="/"></a></el-breadcrumb-item>
         </el-breadcrumb>

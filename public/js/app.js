@@ -6686,7 +6686,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -91820,19 +91819,7 @@ var render = function () {
                 attrs: { slot: "header" },
                 slot: "header",
               },
-              [
-                _c("span", [_vm._v("Dashboard")]),
-                _vm._v(" "),
-                _c(
-                  "el-button",
-                  {
-                    staticStyle: { float: "right", padding: "3px 0" },
-                    attrs: { type: "text" },
-                  },
-                  [_vm._v("Operation button")]
-                ),
-              ],
-              1
+              [_c("span", [_vm._v("Dashboard")])]
             ),
             _vm._v(" "),
             _c("div", { staticClass: "text item" }),
@@ -91872,7 +91859,7 @@ var render = function () {
     [
       _c(
         "el-breadcrumb",
-        { attrs: { separator: "/" } },
+        { attrs: { "separator-class": "el-icon-arrow-right" } },
         [
           _c("el-breadcrumb-item", { attrs: { to: { path: "/" } } }, [
             _vm._v("Dashboard"),
