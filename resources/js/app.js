@@ -27,6 +27,7 @@ Vue.use(Element)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('dashboard-component', require('./components/Dashboard.vue').default);
+Vue.component('welcome-page-component', require('./components/partial/WelcomePage.vue').default);
 Vue.component('subheader-component', require('./components/partial/Subheader.vue').default);
 
 /**
