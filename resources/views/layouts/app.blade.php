@@ -13,8 +13,8 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -38,34 +38,42 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
+                    
                     <ul class="navbar-nav ms-auto">
+                         <img
+                            class="mt-1"
+                            width="30px" height="30" 
+                            src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png">
+                        </img>
                         <!-- Authentication Links -->
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                <!-- {{ Auth::user()->username }} -->
-                                <i class="el-icon-s-custom"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/profile">
-                                    {{ Auth::user()->username }}
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <!-- {{ Auth::user()->username }} -->
+                                  
+                                        
+
                                 </a>
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
-                            </div>
-                        </li>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/profile">
+                                        {{ Auth::user()->username }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- @yield('subheader') -->
         <div class="subheader_nav">
-            <nav class="navbar navbar-expand-md shadow-sm" style="border-top: 1px outset;color: #d00f13;">
+            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="border-top: 1px outset; ">
                 @yield('subheader')
             </nav>
         </div>
