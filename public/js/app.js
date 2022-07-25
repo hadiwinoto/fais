@@ -6686,6 +6686,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -6724,6 +6753,90 @@ __webpack_require__.r(__webpack_exports__);
     handleSelect: function handleSelect(key, keyPath) {
       console.log(key, keyPath);
     }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {},
+  data: function data() {
+    return {
+      currentDate: new Date(),
+      item: []
+    };
   }
 });
 
@@ -13643,7 +13756,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.el-carousel__item h3 {\r\n    color: #475669;\r\n    font-size: 18px;\r\n    opacity: 0.75;\r\n    line-height: 300px;\r\n    margin: 0;\n}\n.el-carousel__item:nth-child(2n) {\r\n    background-color: #99a9bf;\n}\n.el-carousel__item:nth-child(2n+1) {\r\n    background-color: #d3dce6;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.el-carousel__item h3 {\r\n    color: #475669;\r\n    font-size: 18px;\r\n    opacity: 0.75;\r\n    line-height: 300px;\r\n    margin: 0;\n}\n.el-carousel__item:nth-child(2n) {\r\n    background-color: #99a9bf;\n}\n.el-carousel__item:nth-child(2n+1) {\r\n    background-color: #d3dce6;\n}\n.time {\r\n    font-size: 13px;\r\n    color: #999;\n}\n.bottom {\r\n    margin-top: 13px;\r\n    line-height: 12px;\n}\n.button {\r\n    padding: 0;\r\n    float: right;\n}\n.image {\r\n    width: 100%;\r\n    display: block;\n}\n.clearfix:before,\r\n  .clearfix:after {\r\n      display: table;\r\n      content: \"\";\n}\n.clearfix:after {\r\n      clear: both\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -91790,17 +91903,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _WelcomePage_vue_vue_type_template_id_6b95a1e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./WelcomePage.vue?vue&type=template&id=6b95a1e8& */ "./resources/js/components/partial/WelcomePage.vue?vue&type=template&id=6b95a1e8&");
-/* harmony import */ var _WelcomePage_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WelcomePage.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/partial/WelcomePage.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _WelcomePage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WelcomePage.vue?vue&type=script&lang=js& */ "./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js&");
+/* harmony import */ var _WelcomePage_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WelcomePage.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/partial/WelcomePage.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 ;
 
 
 /* normalize component */
 
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  script,
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _WelcomePage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _WelcomePage_vue_vue_type_template_id_6b95a1e8___WEBPACK_IMPORTED_MODULE_0__.render,
   _WelcomePage_vue_vue_type_template_id_6b95a1e8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
@@ -91846,6 +91961,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Subheader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Subheader.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/partial/Subheader.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Subheader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_WelcomePage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./WelcomePage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/partial/WelcomePage.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_WelcomePage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -91933,7 +92064,7 @@ var render = function () {
     _c("div", { staticClass: "row justify-content-center" }, [
       _c(
         "div",
-        { staticClass: "col-md-8" },
+        { staticClass: "col-md-9" },
         [
           _c("el-card", { staticClass: "box-card" }, [
             _c(
@@ -91946,7 +92077,63 @@ var render = function () {
               [_c("span", [_vm._v("Dashboard")])]
             ),
             _vm._v(" "),
-            _c("div", { staticClass: "text item" }),
+            _c("div", { staticClass: "text item" }, [
+              _vm._v(
+                "\r\n                            Welcome To Sistem Informasi Kajian\r\n                    "
+              ),
+            ]),
+          ]),
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-md-3" },
+        [
+          _c("el-card", { staticClass: "box-card" }, [
+            _c("div", { staticClass: "text item" }, [
+              _vm._v(
+                "\r\n                           Anda Sedang Berada di SI-KAJI \r\n                    "
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text item mt-3" }, [
+              _vm._v(
+                "\r\n                           Selamat Datang\r\n                           "
+              ),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-6" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "https://www.vhv.rs/dpng/d/426-4264903_user-avatar-png-picture-avatar-profile-dummy-transparent.png",
+                      width: "55px",
+                      height: "50px",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-6" }, [
+                  _c("table", [
+                    _c("tr", [
+                      _c("td", [_vm._v("Nama")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(":")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Tri Kartika")]),
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("NIP")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(":")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("2324325")]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
           ]),
         ],
         1
@@ -92021,13 +92208,178 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "el-carousel",
-    { attrs: { interval: 5000, arrow: "always" } },
-    _vm._l(4, function (item) {
-      return _c("el-carousel-item", { key: item }, [
-        _c("h3", [_vm._v(_vm._s(item))]),
-      ])
-    }),
+    "div",
+    [
+      _c(
+        "el-carousel",
+        { attrs: { height: "430px", interval: 5000, arrow: "always" } },
+        [
+          _c("el-carousel-item", [
+            _c("img", {
+              staticClass: "image",
+              attrs: {
+                src: "https://www.ojk.go.id/id/Banners/Selamat%20Bertugas%20Anggota%20Dewan%20Komisioner%20OJK.jpeg",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("el-carousel-item", [
+            _c("img", {
+              staticClass: "image",
+              attrs: {
+                src: "https://www.ojk.go.id/id/Banners/BUKU-OJK-MEMBANGUN-NEGERI-WEBANNER.png",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("el-carousel-item", [
+            _c("img", {
+              staticClass: "image",
+              attrs: {
+                src: "https://www.ojk.go.id/id/Banners/Banner-Web-Perjalanan-Satu-Dasawarsa--22.png",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("el-carousel-item", [
+            _c("img", {
+              staticClass: "image",
+              attrs: {
+                src: "https://www.ojk.go.id/id/Banners/Selamat%20Bertugas%20Anggota%20Dewan%20Komisioner%20OJK.jpeg",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("el-carousel-item", [
+            _c("img", {
+              staticClass: "image",
+              attrs: {
+                src: "https://www.ojk.go.id/id/Banners/WhatsApp%20Image%202022-06-14%20at%203.14.02%20PM.jpeg",
+              },
+            }),
+          ]),
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "el-row",
+        { staticClass: "mt-3 mb-10", attrs: { gutter: 12 } },
+        [
+          _c(
+            "el-col",
+            { attrs: { span: 8 } },
+            [
+              _c("el-card", { attrs: { shadow: "hover" } }, [
+                _c("img", {
+                  staticClass: "image",
+                  attrs: {
+                    src: "https://www.ojk.go.id/id/Banners/Selamat%20Bertugas%20Anggota%20Dewan%20Komisioner%20OJK.jpeg",
+                  },
+                }),
+                _vm._v(" "),
+                _c("div", { staticStyle: { padding: "14px" } }, [
+                  _c("span", [_vm._v("Yummy hamburger")]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "bottom clearfix" },
+                    [
+                      _c("time", { staticClass: "time" }, [
+                        _vm._v(_vm._s(_vm.currentDate)),
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "el-button",
+                        { staticClass: "button", attrs: { type: "text" } },
+                        [_vm._v("Detail")]
+                      ),
+                    ],
+                    1
+                  ),
+                ]),
+              ]),
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "el-col",
+            { attrs: { span: 8 } },
+            [
+              _c("el-card", { attrs: { shadow: "hover" } }, [
+                _c("img", {
+                  staticClass: "image",
+                  attrs: {
+                    src: "https://www.ojk.go.id/id/Banners/BUKU-OJK-MEMBANGUN-NEGERI-WEBANNER.png",
+                  },
+                }),
+                _vm._v(" "),
+                _c("div", { staticStyle: { padding: "14px" } }, [
+                  _c("span", [_vm._v("Yummy hamburger")]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "bottom clearfix" },
+                    [
+                      _c("time", { staticClass: "time" }, [
+                        _vm._v(_vm._s(_vm.currentDate)),
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "el-button",
+                        { staticClass: "button", attrs: { type: "text" } },
+                        [_vm._v("Detail")]
+                      ),
+                    ],
+                    1
+                  ),
+                ]),
+              ]),
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "el-col",
+            { attrs: { span: 8 } },
+            [
+              _c("el-card", { attrs: { shadow: "hover" } }, [
+                _c("img", {
+                  staticClass: "image",
+                  attrs: {
+                    src: "https://www.ojk.go.id/id/Banners/Banner-Web-Perjalanan-Satu-Dasawarsa--22.png",
+                  },
+                }),
+                _vm._v(" "),
+                _c("div", { staticStyle: { padding: "14px" } }, [
+                  _c("span", [_vm._v("Yummy hamburger")]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "bottom clearfix" },
+                    [
+                      _c("time", { staticClass: "time" }, [
+                        _vm._v(_vm._s(_vm.currentDate)),
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "el-button",
+                        { staticClass: "button", attrs: { type: "text" } },
+                        [_vm._v("Detail")]
+                      ),
+                    ],
+                    1
+                  ),
+                ]),
+              ]),
+            ],
+            1
+          ),
+        ],
+        1
+      ),
+    ],
     1
   )
 }
