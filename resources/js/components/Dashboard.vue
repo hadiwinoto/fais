@@ -2,14 +2,21 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
-                <el-card class="box-card">
-                    <div slot="header" class="clearfix">
-                        <span>Dashboard</span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+                        <div>
+                            <h1><b>Online Library</b></h1>
+                            <h2>Selamat Datang  di Pepustakaan Digital</h2>
+                            <h2>Insan Pasar Modal OJK</h2>
+                            <h2><b>#AplaceForLearner</b></h2>
+                        </div>
+                        </div>
+                        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+                        <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                        </div>
                     </div>
-                    <div class="text item">
-                            Welcome To Sistem Informasi Kajian
-                    </div>
-                </el-card>
+                </div>
             </div>
             <div class="col-md-3">
                 <el-card class="box-card">
@@ -19,21 +26,17 @@
                     <div class="text item mt-3">
                            Selamat Datang
                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="https://www.vhv.rs/dpng/d/426-4264903_user-avatar-png-picture-avatar-profile-dummy-transparent.png" width="55px" height="50px"/>
-                                </div>
-                                <div class="col-md-6">
+                                
+                                <div class="col-md-12">
                                     <table>
                                         <tr>
-                                            <td>Nama</td>
-                                            <td>:</td>
-                                            <td>Tri Kartika</td>
+                                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6MEn1wZkViQK-XUfpCl4ogHaHv%26pid%3DApi&f=1" width="55px" height="55px"/>
+                                            <td>
+                                                <span><b>Tri Kartika</b></span><br>
+                                                <span>H03274</span>
+                                            </td>
                                         </tr>
-                                        <tr>
-                                            <td>NIP</td>
-                                            <td>:</td>
-                                            <td>2324325</td>
-                                        </tr>
+                                        
                                     </table>
                                 </div>
                             </div>

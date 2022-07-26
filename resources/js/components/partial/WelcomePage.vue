@@ -22,7 +22,6 @@
         <el-card shadow="hover">
           <img src="https://www.ojk.go.id/id/Banners/Selamat%20Bertugas%20Anggota%20Dewan%20Komisioner%20OJK.jpeg" class="image">
           <div style="padding: 14px;">
-            <span>Yummy hamburger</span>
             <div class="bottom clearfix">
               <time class="time">{{ currentDate }}</time>
               <el-button type="text" class="button">Detail</el-button>
@@ -34,7 +33,6 @@
         <el-card shadow="hover">
           <img src="https://www.ojk.go.id/id/Banners/BUKU-OJK-MEMBANGUN-NEGERI-WEBANNER.png" class="image">
           <div style="padding: 14px;">
-            <span>Yummy hamburger</span>
             <div class="bottom clearfix">
               <time class="time">{{ currentDate }}</time>
               <el-button type="text" class="button">Detail</el-button>
@@ -46,7 +44,6 @@
         <el-card shadow="hover">
           <img src="https://www.ojk.go.id/id/Banners/Banner-Web-Perjalanan-Satu-Dasawarsa--22.png" class="image">
           <div style="padding: 14px;">
-            <span>Yummy hamburger</span>
             <div class="bottom clearfix">
               <time class="time">{{ currentDate }}</time>
               <el-button type="text" class="button">Detail</el-button>

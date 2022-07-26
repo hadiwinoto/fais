@@ -7,15 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>SI-KAJI</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Fonts -->
-    
-
-    <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     
@@ -26,12 +22,12 @@
                 @if (Route::has('login'))
                     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                         @auth
-                            <a href="{{ url('/home') }}" class="text-sm text-gray-700" style="color:black;">Home</a>
+                            <a href="{{ url('/home') }}" class="text-sm" style="color:black;">Home</a>
                         @else
-                            <a href="{{ route('login') }}" class="text-sm text-gray-700" style="color:black;">Login</a> |
+                            <a href="{{ route('login') }}" class="text-sm" style="color:black;">Login</a> |
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700" style="color:black;">Register</a>
+                                <a href="{{ route('register') }}" class="ml-4 text-sm" style="color:black;">Register</a>
                             @endif
                         @endif
                     </div>
