@@ -1,4 +1,5 @@
-Starterkit
+LARAVEL
+VUE JS - Eelement UI
 
 Step
 1. Clone this repo
